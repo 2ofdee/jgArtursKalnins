@@ -2,7 +2,7 @@ package lv.Homework3;
 
 public class Circle {
 
-    double radius;
+    double radius;  //jābūt private
 
     public double getRadius() {
         return radius;

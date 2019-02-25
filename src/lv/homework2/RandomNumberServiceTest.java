@@ -2,6 +2,7 @@ package lv.homework2;
 
 import java.util.Random;
 
+//OK
 public class RandomNumberServiceTest {
 
     public static void main(String[] args) {

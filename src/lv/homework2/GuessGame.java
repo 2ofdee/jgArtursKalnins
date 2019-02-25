@@ -8,7 +8,6 @@ public class GuessGame {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-
         Random random = new Random();
 
         int myNumber = random.nextInt(10000);
@@ -29,9 +28,6 @@ public class GuessGame {
                 System.out.println("The number you've entered is not in range of 1...10 000, please enter different number: ");
                 numberGuessed = scanner.nextInt();
             }
-
-
-
         }
         System.out.println("Congradulation! you've won! My number was "+myNumber);
     }

@@ -1,5 +1,6 @@
 package lv.Homework3;
 
+//OK
 public class CarTest {
     public static void main(String[] args) {
         Car myCar = new Car();
@@ -13,8 +14,4 @@ public class CarTest {
         System.out.println("My cars year is " + myCar.getYear());
 
     }
-
-
-
-
 }

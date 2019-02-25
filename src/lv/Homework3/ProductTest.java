@@ -2,11 +2,12 @@ package lv.Homework3;
 
 import java.util.Scanner;
 
+//Ok - šādi arī to varēja risināt
 public class ProductTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Product myProduct = new Product();
-
+//dzēšam nevajadzīgāš tukšās rindas
 
         System.out.println("what is the name of your product?");
         myProduct.setName(scanner.next());

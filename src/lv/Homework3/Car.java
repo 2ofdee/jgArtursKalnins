@@ -1,5 +1,6 @@
 package lv.Homework3;
 
+//OK
 public class Car {
 
     private String color;

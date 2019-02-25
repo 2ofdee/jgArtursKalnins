@@ -5,7 +5,7 @@ public class Product {
     private String name;
     private double regularPrice;
     private double discount;
-
+//dzēšam nevajadzīgāš tukšās rindas
 
     public String getName() {
         return name;
@@ -32,13 +32,13 @@ public class Product {
     }
 
     public double calculateActualPrice(){
-
+//dzēšam nevajadzīgāš tukšās rindas
         return regularPrice - (regularPrice * (discount / 100)) ;
-
+//dzēšam nevajadzīgāš tukšās rindas
     }
 
     public void printInformation() {
-
+//koda formatēšana "ctrl + alt + l"
         System.out.println("Product information:");
         System.out.println(String.format("Product Name: %s",name ));
         System.out.println(String.format("Regular price of the product is: %s EUR",regularPrice ));
