@@ -1,7 +1,8 @@
 package lv.Homework4;
 
+//Klases nosaukumam nav nepieciešams klāt Class - pietiek ar Stock
 public class StockClass {
-    public double updatePrice;
+    public double updatePrice; //neizmantots lauks, nedrīkst būt "public"
     private String company;
     private double currentValue;
     private double max;

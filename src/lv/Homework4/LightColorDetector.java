@@ -1,5 +1,6 @@
 package lv.Homework4;
 
+//OK
 public class LightColorDetector {
 
     public String detect (int waveLength) {

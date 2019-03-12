@@ -7,9 +7,9 @@ public class User {
     private int loginAttemptsLeft;
     private boolean blocked;
 
-
-
-
+//  liekas rindas
+//
+//
     public User(String login, String password) {
         this.login = login;
         this.password = password;
@@ -33,6 +33,7 @@ public class User {
         this.loginAttemptsLeft--;
     }
 
+    //ctrl + alt + l
     public void resetLoginAttempts() {
             if (this.loginAttemptsLeft == 0) {
             this.loginAttemptsLeft = 3;

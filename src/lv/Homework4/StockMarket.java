@@ -10,8 +10,8 @@ public class StockMarket {
         ibm.updatePrice(150.12);
 
         ibm.printInformation();
-
-
+// tukšas līnijas
+//
     }
 }
 
