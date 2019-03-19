@@ -39,27 +39,27 @@ public class TV {
         this.turnedOn = turnedOn;
     }
 
-    public boolean turnOn() {
+    public void turnOn() {
         turnedOn = true;
-        return turnedOn;
-    }
+       }
 
-    public boolean turnOff() {
+    public void turnOff() {
         turnedOn = false;
-        return turnedOn;
     }
 
     public void nextChannel() {
-        if (turnedOn = true) {
+        if (isTurnedOn()) {
             currentChannel++;
+            System.out.println("channel to channel number " + currentChannel);
         } else {
             System.out.println("please turn on the TV first!");
         }
     }
 
     public void previousChannel() {
-        if (turnedOn = true) {
+        if (isTurnedOn()) {
             currentChannel--;
+            System.out.println("changed to channel number "+ currentChannel);
         } else {
             System.out.println("please turn on the TV first");
         }
@@ -68,16 +68,18 @@ public class TV {
     }
 
     public void increaseVolume() {
-        if(turnedOn = true){
+        if(isTurnedOn()){
             currentChannel++;
+            System.out.println("volume changed to number "+ currentVolumeLevel);
         }else{
             System.out.println("please turn on the TV first");
         }
     }
 
     public void decreaseVolume(){
-        if(turnedOn = true){
+        if(isTurnedOn()){
             currentVolumeLevel--;
+            System.out.println("Volume changed to number "+ currentVolumeLevel);
         }else{
             System.out.println("please turn on the TV first");
         }
