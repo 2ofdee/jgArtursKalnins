@@ -1,11 +1,13 @@
 package lv.Homework5;
 
+//ctrl + alt + l
+//funkcionāli OK
 public class TV {
     private int currentChannel;
     private int currentVolumeLevel;
     private String manufacturer;
     private boolean turnedOn;
-
+//lieka rinda
 
     public int getCurrentChannel() {
         return currentChannel;
@@ -63,8 +65,8 @@ public class TV {
         } else {
             System.out.println("please turn on the TV first");
         }
-
-
+//liekas rindas
+//
     }
 
     public void increaseVolume() {
@@ -100,8 +102,8 @@ public class TV {
                 && currentVolumeLevel == (tv.getCurrentVolumeLevel())
                 && manufacturer.equals(tv.getManufacturer())
                 && turnedOn ==(tv.isTurnedOn());
-
+//lieka rinda
     }
-
-
+//liekas rindas
+//
 }

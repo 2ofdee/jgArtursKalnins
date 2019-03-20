@@ -1,5 +1,6 @@
 package lv.Homework5;
 
+//Neabilst uzdevuma prasībām, nodarbībā paskaidrošu (lūdzu atgadini)
 public class TVController {
     public static void main(String[] args) {
         TV tv = new TV();
