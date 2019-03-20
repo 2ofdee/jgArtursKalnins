@@ -2,10 +2,10 @@ package lv.Homework6;
 
 public class Car {
     private int currentSpeed;
-    private String model;
-    private String color;
+    private String model; //neizmantoti lauki
+    private String color; //neizmantoti lauki
     private int maxSpeed;
-
+//lieka rinda
 
     public Car(String model, String color, int maxSpeed, int currentSpeed) {
         this.model = model;
@@ -20,7 +20,7 @@ public class Car {
         } else {
             System.out.println("Ya can't go any slower, buddy");
         }
-
+//lieka rinda
     }
 
     public void accelerate() {
@@ -28,7 +28,7 @@ public class Car {
             currentSpeed++;
         } else {
             System.out.println("Ya can't go any faster, buddy");
-
+//lieka rinda
         }
     }
 
@@ -41,22 +41,26 @@ public class Car {
     }
 
     public boolean isDriving() {
-        if (currentSpeed > 0) {
-            return true;
-        } else {
-            return false;
-        }
-
-
+        //labāk šādi
+        return currentSpeed > 0;
+//        if (currentSpeed > 0) {
+//            return true;
+//        } else {
+//            return false;
+//        }
+//liekas rindas
+//
     }
 
     public boolean canAccelerate() {
-        if (currentSpeed == maxSpeed) {
-            return false;
-        } else {
-            return true;
-        }
-
+        // šo var uzrakstīt labak šādi
+        return currentSpeed != maxSpeed;
+//        if (currentSpeed == maxSpeed) {
+//            return false;
+//        } else {
+//            return true;
+//        }
+//liekas rindas
     }
 
 }

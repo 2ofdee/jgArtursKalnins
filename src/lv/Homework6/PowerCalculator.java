@@ -1,7 +1,7 @@
 package lv.Homework6;
 
 public class PowerCalculator {
-
+//liekas rindas
 
     public long pow(long number, int power) {
         if (power == 0) {
@@ -10,11 +10,11 @@ public class PowerCalculator {
             return number;
         } else {
             for (int i = 2; i <= power; i++) {
-                number *= number;
+                number *= number; //nemainām ieejas datus, bet izveido lokalo mainīgo kurā glabā starp rezultātu
             }
             return number;
         }
-
-
+//liekas rindas
+//
     }
 }

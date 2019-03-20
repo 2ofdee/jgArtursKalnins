@@ -1,5 +1,7 @@
 package lv.Homework6;
 
+//Klasei jābūt ar lielo burtu
+//ctrl + alt + l
 public class carTest {
     public static void main(String[] args) {
 

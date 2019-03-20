@@ -1,5 +1,6 @@
 package lv.Homework6;
 
+//ctrl + alt + l
 public class PowerCalculatorTest {
     public static void main(String[] args) {
 

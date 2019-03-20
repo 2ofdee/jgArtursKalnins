@@ -11,6 +11,8 @@ public class NumberService {
         this.numberTwo = numberTwo;
     }
 
+    //metodes rakstam ar mazo burtu
+    //metodei ir jāatgriež summa nvis jābūt void
     public void SumInRange() {
 
         if (numberOne < numberTwo) {
@@ -23,17 +25,22 @@ public class NumberService {
             System.out.println(this.sumResult);
         } else {
             sumResult = numberTwo;
+            //kods dublējas - iznest atsevišķā metodē
             int i = numberTwo;
             while (i <= numberOne) {
                 i++;
                 sumResult = sumResult + i;
             }
             System.out.println(this.sumResult);
+            //līz pat šejienei
         }
     }
 
+    //metodei ir jāatgriež skaits nevis jābūt void
+    //getEvenNumberCount
     public void getEvenNumber() {
         if (numberOne < numberTwo) {
+            //kods dublējas - iznest atsevišķā metodē
             for (int i = numberOne; i <= numberTwo; i++) {
                 if (i % 2 == 0) {
                     System.out.println(i);
