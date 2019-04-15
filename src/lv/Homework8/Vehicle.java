@@ -1,5 +1,6 @@
 package lv.Homework8;
 
+//ctrl + alt + l
 public class Vehicle {
 
     private int wheelCount;
@@ -9,7 +10,7 @@ public class Vehicle {
         this.wheelCount = wheelCount;
         this.seatCount = seatCount;
     }
-
+//lieka rinda
 
     public boolean equals(Vehicle obj) {
         return this.wheelCount == obj.wheelCount
