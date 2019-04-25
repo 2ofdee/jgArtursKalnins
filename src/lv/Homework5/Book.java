@@ -10,10 +10,12 @@ public class Book {
     }
 
     public void setAuthor(String author) {
+
         this.author = author;
     }
 
-    public String getTitle() {return title;
+    public String getTitle() {
+        return title;
     }
 
     public void setTitle(String title) {
@@ -37,8 +39,8 @@ public class Book {
     @Override
     public String toString() {
         return String.format("{ author: %s,\n" +
-                "title: %s,\n" +
-                "page count: %s }",
+                        "title: %s,\n" +
+                        "page count: %s }",
                 author, title, pageCount);
     }
 }

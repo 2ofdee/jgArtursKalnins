@@ -7,7 +7,7 @@ public class ArrayService {
 
         create(3);
         printArrayToConsole();
-        summInArray();
+        sumInArray();
         fillArrayWithRandomNumbers();
     }
 
@@ -36,7 +36,7 @@ public class ArrayService {
 
     }
 
-    public static void summInArray() {
+    public static void sumInArray() {
         int sum = 0;
         for (int i : anArray) {
             sum += i;

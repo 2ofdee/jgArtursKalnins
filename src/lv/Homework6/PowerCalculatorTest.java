@@ -6,7 +6,7 @@ public class PowerCalculatorTest {
 
         PowerCalculator powerCalculator = new PowerCalculator();
 
-        long result =powerCalculator.pow(3, 0);
-        System.out.println("the result of the calculation is " +result);
+        long result = powerCalculator.pow(3, 0);
+        System.out.println("the result of the calculation is " + result);
     }
 }

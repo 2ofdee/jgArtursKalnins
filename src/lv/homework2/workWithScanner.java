@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class workWithScanner {
 
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
+
 
         System.out.println("Enter your first number, it should not be less then 1: ");
         int firstNumber = scanner.nextInt();
