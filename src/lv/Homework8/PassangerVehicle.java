@@ -1,8 +1,9 @@
 package lv.Homework8;
 
+//Typo klases nosaukumā
 public class PassangerVehicle extends Vehicle {
 
-    private int milage;
+    private int milage; //Typo
 
     public PassangerVehicle(int milage) {
         super(4, 4);
@@ -13,6 +14,7 @@ public class PassangerVehicle extends Vehicle {
         return super.equals(obj) && this.milage == obj.milage;
     }
 
+    //šai klases superklasei ir divi lauki wheelCount un seatCount, kuru arī ir jāizvada
     @Override
     public String toString() {
         return "PassangerVehicle{" +

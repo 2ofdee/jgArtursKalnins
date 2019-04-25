@@ -13,6 +13,7 @@ public class Truck extends Vehicle {
         return super.equals(obj) && this.weight == obj.weight;
     }
 
+    //šai klases superklasei ir divi lauki wheelCount un seatCount, kuru arī ir jāizvada
     @Override
     public String toString() {
         return "Truck{" +

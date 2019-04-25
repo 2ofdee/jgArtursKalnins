@@ -1,5 +1,6 @@
 package lv.Homework8;
 
+//ctrl + alt + l
 public class CarTest {
 
     public static void main(String[] args) {
@@ -10,7 +11,7 @@ public class CarTest {
         PassangerVehicle passangerVehicle2 = new PassangerVehicle(100000);
         Bus bus2 = new Bus("Yellow");
         Bus bus = new Bus("Red") ;
-
+//lieka rinda
 
         if(truck.equals(truck2)){
             System.out.println( "Truck 1 equals Truck 2");
